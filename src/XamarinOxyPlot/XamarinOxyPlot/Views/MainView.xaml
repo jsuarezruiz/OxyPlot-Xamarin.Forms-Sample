@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinOxyPlot.Views.MainView"
+             Title="OxyPlot">
+    <ScrollView>
+        <StackLayout>
+            <Button
+                Text="Area"
+                Command="{Binding AreaCommand}"/>
+            <Button
+                Text="Bar"
+                Command="{Binding BarCommand}"/>
+            <Button
+                Text="Column"
+                Command="{Binding ColumnCommand}"/>
+            <Button
+                Text="Function"
+                Command="{Binding FunctionCommand}"/>
+            <Button
+                Text="HeatMap"
+                Command="{Binding HeatMapCommand}"/>
+            <Button
+                Text="Line"
+                Command="{Binding LineCommand}"/>
+            <Button 
+                Text="Pie"
+                Command="{Binding PieCommand}"/>
+            <Button
+                Text="Scatter"
+                Command="{Binding ScatterCommand}"/>
+            <Button 
+                Text="StackBar"
+                Command="{Binding StackBarCommand}"/>
+            <Button 
+                Text="Volume"
+                Command="{Binding VolumeCommand}"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
